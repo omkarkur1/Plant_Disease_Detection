@@ -36,7 +36,7 @@ app = Starlette()
 
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
 
-app.mount('/static', StaticFiles(directory='C:/Users/omkar/Desktop/Plant-Diseases-Detector-Web-App-master/app/static'))
+app.mount('/static', StaticFiles(directory='Plant-Diseases-Detector-Web-App-master/app/static'))
 
 
 
